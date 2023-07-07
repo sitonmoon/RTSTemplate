@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "1.2",
+	"FriendlyName": "Journeyman's Minimap RTS",
+	"Description": "A flexible, optimized minimap and fog of war system. Add a stylish borderless or bordered minimap to your game and hook up your own gameplay driven animations. Enable fog of war for limited vision. All features are multiplayer ready.",
+	"Category": "Minimap",
+	"CreatedBy": "Zhi Kang Shao",
+	"CreatedByURL": "http://www.zkshao.com",
+	"DocsURL": "http://www.zkshao.com/downloads/JournMinimapUserGuide.pdf",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ad08325742e24fb0836391bca25c72bb",
+	"SupportURL": "https://forums.unrealengine.com/showthread.php?138793",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "MinimapPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Mac"
+			],
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
